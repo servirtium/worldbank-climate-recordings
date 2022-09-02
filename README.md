@@ -22,7 +22,14 @@ These had a range of AWS headers, as well as some from the microservice (choices
 *  [http://climatedataapi.worldbank.org/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml](http://climatedataapi.worldbank.org/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml)
 *  [http://climatedataapi.worldbank.org/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml](http://climatedataapi.worldbank.org/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml) - not an endpoint 
 
-## If you have the docker container running
+# Dockerized launch
+
+```
+docker build git@github.com:servirtium/worldbank-climate-recordings.git#main -t worldbank-api
+docker run -p 4567:4567 worldbank-api
+```
+
+## If you have the docker container running, or ran Sinatra after a clone/checkout
 
 Full control of headers to make for good tests (TODO)
 
@@ -32,9 +39,11 @@ Full control of headers to make for good tests (TODO)
 *  [http://localhost:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml](http://localhost:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml)
 *  [http://localhost:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml](http://localhost:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml) - not an endpoint
 
-# Dockerized launch
+Better URL via [https://local.gd/](https://local.gd/)
 
-```
-docker build --tag worldbank_recordings .
-docker run -p 4567:4567 worldbank_recordings
-```
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/egy.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/egy.xml)
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/fra.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/fra.xml)
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/egy.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/gbr.xml)
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml)
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml) - n>
+
