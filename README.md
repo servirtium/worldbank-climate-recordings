@@ -45,5 +45,5 @@ Better URL via [https://local.gd/](https://local.gd/)
 *  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/fra.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/fra.xml)
 *  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/egy.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/gbr.xml)
 *  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1980/1999/mde.xml)
-*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml) - n>
+*  [http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml](http://worldbank-api-for-servirtium.local.gd:4567/climateweb/rest/v1/country/annualavg/pr/1985/1995/gbr.xml) - not and endpoint
 
