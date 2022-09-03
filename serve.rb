@@ -3,9 +3,10 @@ require 'securerandom'
 
 $pwd = Dir.pwd
 def serve_xml(file)
-  content_type 'text/xml'
+  content_type 'application/xml'
   headers \
-    "for_testing"   => SecureRandom.uuid
+    "last-modified" => "Tue, 16 Aug 2022 20:58:48 GMT",
+    "for_testing" => SecureRandom.uuid
   send_file($pwd + file)
 end
 
