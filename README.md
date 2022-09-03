@@ -2,6 +2,8 @@
 
 Actual world bank weather WebAPI is down for now :(
 
+![](https://user-images.githubusercontent.com/82182/188281544-8ea7ac48-5016-4b9a-aae4-870da6741404.png)
+
 ## Hosted on https://servirtium.github.io
 
 GitHub's choices of headers - their static hosting
