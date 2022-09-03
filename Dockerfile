@@ -7,8 +7,8 @@ COPY Gemfile /code/
 RUN bundle install
 
 COPY climateweb /code/climateweb
-COPY serve.rb /code/
 COPY config.ru /code/
+COPY serve.rb /code/
 
 EXPOSE 4567
 
