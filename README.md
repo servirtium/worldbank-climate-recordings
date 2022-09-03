@@ -27,8 +27,8 @@ These had a range of AWS headers, as well as some from the microservice (choices
 # Dockerized launch
 
 ```
-docker build git@github.com:servirtium/worldbank-climate-recordings.git#main -t worldbank-api
-docker run -p 4567:4567 worldbank-api
+docker build git@github.com:servirtium/worldbank-climate-recordings.git#main -t worldbank-weather-api-for-servirtium-development
+docker run -p 4567:4567 worldbank-weather-api-for-servirtium-development
 ```
 
 ## If you have the docker container running, or ran Sinatra locally after a clone/checkout
